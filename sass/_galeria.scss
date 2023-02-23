@@ -1,8 +1,16 @@
-.divGaleria{
+.imaggaleria{
+    padding: 50px;
     transition: 0.3s;
+    
 
     &:hover{
-        scale: 1.2;
+        scale: 1.1;
         transition: 0.3s;
     }
+}
+
+.divgaleria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }

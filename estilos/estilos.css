@@ -32,10 +32,17 @@ footer {
   margin-top: auto;
 }
 
-.divGaleria {
+.imaggaleria {
+  padding: 50px;
   transition: 0.3s;
 }
-.divGaleria:hover {
-  scale: 1.2;
+.imaggaleria:hover {
+  scale: 1.1;
   transition: 0.3s;
+}
+
+.divgaleria {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }/*# sourceMappingURL=estilos.css.map */
