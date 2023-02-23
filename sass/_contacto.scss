@@ -1,52 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: black;
-}
-header li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px;
-}
-header li a {
-  text-decoration: none;
-  color: white;
-}
-header li a:hover {
-  font-weight: bold;
-}
-
-body {
-  background-color: grey;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-footer {
-  background-color: black;
-  margin-top: auto;
-}
-
-.imaggaleria {
-  padding: 50px;
-  transition: 0.3s;
-}
-.imaggaleria:hover {
-  scale: 1.1;
-  transition: 0.3s;
-}
-
-.divgaleria {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
 
 ul {
   list-style: none;
@@ -72,7 +24,7 @@ input {
 .contact-sec {
   align-item: center;
   display: flex;
-  background-color: rgba(92, 189, 228, 0.4);
+  background-color: #5cbde466;
 }
 
 .contact-sec .contact-ul li,
@@ -89,7 +41,6 @@ input {
   margin-right: 10px;
   border-radius: 50%;
 }
-
 .contact-detail a {
   color: #000;
   text-decoration: none;
@@ -112,15 +63,15 @@ form.contFrm {
 }
 
 .inptFldmsg {
-  width: 100%;
-  height: 375px;
-  border: 0;
-  margin: 0 0 10px;
-  border-radius: 8px;
-  padding: 0 20px;
-  font-size: 16px;
-  color: #000;
-}
+    width: 100%;
+    height: 375px;
+    border: 0;
+    margin: 0 0 10px;
+    border-radius: 8px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #000;
+  }
 
 .inptFld:focus {
   outline-offset: -4px;
@@ -130,7 +81,6 @@ form.contFrm {
 .contFrm textarea {
   padding-top: 5px;
 }
-
 .inptBtn {
   height: 50px;
   border: 0;
@@ -147,15 +97,18 @@ form.contFrm {
   .sec-pad {
     padding: 20px 0 0px;
   }
+
   .contact-sec .contact-ul li,
   .contact-ul b {
     font-size: 18px;
   }
+
   .contact-sec .contact-ul i {
     font-size: 14px;
     padding: 6px;
     margin-right: 6px;
   }
+
   .inptFld {
     height: 40px;
     margin: 0 0 10px;
@@ -163,6 +116,7 @@ form.contFrm {
     font-size: 14px;
   }
 }
+
 @media (max-width: 767px) {
   .contact-detail span {
     width: auto;
@@ -175,14 +129,16 @@ form.contFrm {
     margin: 0px 5px 20px;
   }
 }
+
 @media (max-width: 575px) {
   .section-title {
     font-size: 26px;
     font-weight: 500;
   }
   .contact-sec {
-    border-radius: 10% 10% 0% 0%/5% 5% 0% 0%;
+    border-radius: 10% 10% 0% 0% / 5% 5% 0% 0%;
   }
+
   .contact-sec .contact-ul i {
     border: none;
   }
@@ -193,9 +149,10 @@ form.contFrm {
     font-size: 14px;
   }
 }
+
 @media (max-width: 480px) {
   .contact-sec .contact-ul li,
   .contact-ul b {
     font-size: 16px;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
