@@ -70,7 +70,7 @@ input {
 }
 
 .contact-sec {
-  align-item: center;
+  align-items: center;
   display: flex;
   background-color: rgba(92, 189, 228, 0.4);
   width: 80%;
@@ -231,4 +231,25 @@ form.contFrm {
 
 .video-explic {
   margin-top: 50px;
+}
+
+.mapa {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(92, 189, 228, 0.4);
+}
+
+.card-img-top {
+  margin-top: 20px;
+  height: 163px;
+  width: 262px;
+}
+
+.tit-precio {
+  color: black;
+  padding: 40px;
+  text-align: center;
 }/*# sourceMappingURL=estilos.css.map */
