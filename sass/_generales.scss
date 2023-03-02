@@ -4,33 +4,3 @@
     padding: 0;
 }
 
-header{
-    background-color: black;
-
-    li{
-        list-style-type: none;
-        display: inline-block;
-        padding: 10px;
-
-        a{
-            text-decoration: none;
-            color: white;
-
-            &:hover{
-                font-weight: bold;
-            }
-        }
-    }
-}
-
-body{
-    background-color: grey;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-footer{
-    background-color: black;
-    margin-top: auto;
-}
