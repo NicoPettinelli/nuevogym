@@ -18,7 +18,6 @@
     }
 
 .tit-precio{
-    color: black;
-    padding: 40px;
-    text-align: center;
+    @extend .tit-activi
     }
+

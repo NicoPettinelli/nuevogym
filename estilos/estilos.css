@@ -220,13 +220,7 @@ form.contFrm {
   width: 262px;
 }
 
-.tit-precio {
-  color: black;
-  padding: 40px;
-  text-align: center;
-}
-
-.tit-activi {
+.tit-activi, .tit-precio {
   color: black;
   padding: 40px;
   text-align: center;
